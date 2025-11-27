@@ -1,39 +1,191 @@
 {
+  "project": "Winter Retreat",
+  "type": "Continuity Bible — Full Edition",
+  "version": "1.0",
+
   "characters": {
-    "Emma": {
-      "voice": "intimate, anxious, observational, resilient",
-      "trauma": ["Liam breakup", "loneliness", "digital stalking", "self-doubt"],
-      "rules": ["no melodrama", "fear is quiet but sharp", "hyperaware of environment"]
+    "Emma Hale": {
+      "role": "Protagonist, 1st-person narrator",
+      "age": 35,
+      "psychology": {
+        "personality": ["sensitive", "intelligent", "self-critical", "empathetic", "avoidant under conflict"],
+        "wounds": ["abandonment from Liam", "job loss", "humiliation", "fear of being replaceable"],
+        "triggers": ["closed doors", "silence", "being watched", "raised voices", "confident women"],
+        "stress_behavior": ["overthinking", "catastrophizing", "misreading cues", "retreat", "sarcasm"],
+        "speech": ["short internal thoughts", "dry humor", "broken sentences under stress"],
+        "body_language": ["wringing hands", "tense shoulders", "freezing when startled"],
+        "pov_bias": {
+          "Sara": "stalker-like",
+          "Derek": "dangerous",
+          "Jenna": "manipulative",
+          "Michael": "predatory",
+          "Evan": "safe"
+        }
+      },
+      "rules": {
+        "no_sudden_courage": true,
+        "fear_is_internal_not_screaming": true,
+        "voice_is_intimate_fragile_precise": true,
+        "no_melodrama": true
+      }
     },
-    "Liam": {
-      "voice": "guilt-driven, reactive, emotional",
-      "motivation": ["protect her", "fix mistakes", "fear of losing her"]
+
+    "Liam Hale": {
+      "role": "Husband / emotional anchor",
+      "age": 38,
+      "psychology": {
+        "personality": ["logical", "grounded", "stoic", "protective"],
+        "wounds": ["feels blamed", "untrusted", "regret for neglect"],
+        "triggers": ["Emma withdrawing", "seeing her hurt"],
+        "stress_behavior": ["goes action-mode", "emotional shutdown"],
+        "speech": ["short", "direct", "quiet intensity"],
+        "pov_filter": "Emma sees him as cold — reader later sees he’s overwhelmed"
+      }
     },
-    "Evan": {
-      "voice": "calm, precise, eerily gentle",
-      "behavior": ["never shouts", "moves slowly", "studies her", "emotion=controlled"],
-      "identity": "Owen",
-      "rules": ["no impulsive violence", "always deliberate"]
+
+    "Evan Turner (Owen)": {
+      "role": "Antagonist / digital stalker",
+      "age": 33,
+      "identity": ["Evan Turner", "Owen Reynolds"],
+      "psychology": {
+        "personality": ["patient", "methodical", "emotionally void", "mimics empathy"],
+        "wounds": ["lifelong invisibility", "abandonment", "obsessive attachment"],
+        "triggers": ["rejection", "loss of control", "women bonding with others"],
+        "behavior": [
+          "stands too still",
+          "watches silently",
+          "moves quietly",
+          "smiles without warmth",
+          "observes Emma with precision"
+        ],
+        "speech": ["calm", "gentle", "polite", "simple wording"],
+        "goal": "connection through possession, not violence"
+      },
+      "rules": {
+        "never_shouts": true,
+        "never_moves_fast_unless_final_scene": true,
+        "always_calm_deliberate": true,
+        "danger_is_in_voice_not_action": true
+      }
     },
-    "Jenna": {
-      "voice": "bright masking fear",
-      "motivation": ["escape past stalker", "seek safety"]
+
+    "Michael Harris": {
+      "role": "Lodge manager / red herring",
+      "age": 45,
+      "psychology": {
+        "personality": ["rigid", "rule-bound", "nervous"],
+        "wounds": ["lost a guest years ago", "severe guilt"],
+        "behavior": ["hovering", "checking halls", "avoiding eye contact"],
+        "speech": ["formal", "too polite", "precise"],
+        "pov_filter": "Emma thinks he’s lurking; truth — vigilant"
+      }
     },
-    "Michael": {
-      "voice": "strained, vigilant",
-      "motivation": ["protect guests", "fight panic", "trauma from missing guest case"]
+
+    "Jenna Reeves": {
+      "role": "Fellow guest / female red herring",
+      "age": 29,
+      "psychology": {
+        "personality": ["charming", "witty", "vulnerable", "observant"],
+        "wounds": ["abusive ex", "fear of being found"],
+        "behavior": ["bright mask", "fidgety", "hyper-aware of exits"],
+        "speech": ["fast", "sarcastic", "emotion leaks"],
+        "pov_filter": "Emma sees manipulation; truth — trauma"
+      }
+    },
+
+    "Sara Miller": {
+      "role": "Anxious guest / attachment red herring",
+      "age": 33,
+      "psychology": {
+        "personality": ["anxious", "clingy", "people-pleasing"],
+        "wounds": ["emotional abuse", "fear of being abandoned"],
+        "behavior": ["appears suddenly", "asks too many questions"],
+        "speech": ["rambling", "hesitant"],
+        "pov_filter": "Emma misreads fear as threat"
+      }
+    },
+
+    "Derek Miller": {
+      "role": "Volatile husband / red herring",
+      "age": 35,
+      "psychology": {
+        "personality": ["defensive", "paranoid", "volatile"],
+        "wounds": ["fear of losing Sara", "shame"],
+        "behavior": ["shaking", "jaw clenching", "pacing"],
+        "speech": ["short", "accusatory"],
+        "pov_filter": "Emma sees danger; truth — instability"
+      }
+    },
+
+    "Peter Harper": {
+      "role": "Older atmospheric red herring",
+      "age": 58,
+      "personality": ["controlling", "patronizing", "observant"],
+      "speech": ["slow", "deliberate"],
+      "behavior": ["academic curiosity toward Emma"]
+    },
+
+    "Elizabeth Harper": {
+      "role": "Fragile older woman / atmospheric red herring",
+      "age": 58,
+      "psychology": {
+        "personality": ["unstable", "dissociative"],
+        "behavior": ["wanders halls", "stares"]
+      }
+    },
+
+    "Lukas Downey": {
+      "role": "Loner / forest red herring",
+      "age": 30,
+      "personality": ["restless", "avoidant", "traumatized"],
+      "behavior": ["twitchy", "jittery", "wanders forests"],
+      "pov_filter": "Emma interprets grief as threat"
+    },
+
+    "Police Officers": {
+      "role": "Minor characters for resolution",
+      "rules": ["functional dialogue only", "no personalities", "no emotional arcs"]
     }
   },
-  "setting": {
-    "lodge": "warm but claustrophobic, old wood, low lights, storm outside always present",
-    "storm": "psychological pressure, isolation"
+
+  "locations": {
+    "Lodge": "warm interior, claustrophobic, wood, dim lights, too quiet",
+    "EmmaRoom": "violated space; objects moved subtly",
+    "Basement": "old logs, records, crime clues",
+    "LockedRoom": "Evan’s observation room with photos",
+    "ForestEdge": "danger zone, footprints, blizzard",
+    "ParkingLot": "arrival/departure point; confrontation zone",
+    "Hallway3C": "unnatural quiet, subtle threat",
+    "Stairwell": "slippery, sabotage site",
+    "SittingRoom": "Evan’s calm scene",
+    "Reception": "Michael’s space",
+    "Kitchen": "rarely used; no horror scenes",
+    "LiamApartment": "parallel emotional arc"
   },
-  "forbidden": [
-    "breaking POV",
-    "breaking timeline",
-    "shifting Evan into rage",
-    "making Emma suddenly brave/heroic",
-    "overexplaining emotions",
-    "happy-sappy tone"
+
+  "objects": {
+    "LensFragment": "evidence of watching",
+    "CircleMark": "Evan’s signature symbol",
+    "EmmaPhone": "tool of digital intrusion",
+    "OldLogs": "missing woman case",
+    "PrintedPhotos": "Evan’s archive",
+    "Footprints": "pattern of surveillance"
+  },
+
+  "rules_world": {
+    "storm_traps_people": true,
+    "bad_signal": true,
+    "hallways_cold_lobby_warm": true,
+    "lodge_as_character": "watching, echo chamber"
+  },
+
+  "forbidden_changes": [
+    "no POV breaks",
+    "no heroism boost for Emma",
+    "no rage outbursts for Evan",
+    "no melodrama",
+    "no random new characters",
+    "no supernatural elements",
+    "no AI-sounding prose"
   ]
 }
