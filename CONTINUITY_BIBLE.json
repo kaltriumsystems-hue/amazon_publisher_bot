@@ -1,0 +1,39 @@
+{
+  "characters": {
+    "Emma": {
+      "voice": "intimate, anxious, observational, resilient",
+      "trauma": ["Liam breakup", "loneliness", "digital stalking", "self-doubt"],
+      "rules": ["no melodrama", "fear is quiet but sharp", "hyperaware of environment"]
+    },
+    "Liam": {
+      "voice": "guilt-driven, reactive, emotional",
+      "motivation": ["protect her", "fix mistakes", "fear of losing her"]
+    },
+    "Evan": {
+      "voice": "calm, precise, eerily gentle",
+      "behavior": ["never shouts", "moves slowly", "studies her", "emotion=controlled"],
+      "identity": "Owen",
+      "rules": ["no impulsive violence", "always deliberate"]
+    },
+    "Jenna": {
+      "voice": "bright masking fear",
+      "motivation": ["escape past stalker", "seek safety"]
+    },
+    "Michael": {
+      "voice": "strained, vigilant",
+      "motivation": ["protect guests", "fight panic", "trauma from missing guest case"]
+    }
+  },
+  "setting": {
+    "lodge": "warm but claustrophobic, old wood, low lights, storm outside always present",
+    "storm": "psychological pressure, isolation"
+  },
+  "forbidden": [
+    "breaking POV",
+    "breaking timeline",
+    "shifting Evan into rage",
+    "making Emma suddenly brave/heroic",
+    "overexplaining emotions",
+    "happy-sappy tone"
+  ]
+}
